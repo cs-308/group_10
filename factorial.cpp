@@ -3,9 +3,10 @@
 using namespace std;
 
 int factorial(int n){
-    if (n<0) {
-        cout << "Enter a positive number(>=0)" << endl;
-        exit(1);
+    while(n<0){
+        cout<<"Enter a positive number"<<endl;
+        int x;cin>>x;
+        n = x;
     }
     // if(n!=1){
 	// return(n * factorial(n-1));
