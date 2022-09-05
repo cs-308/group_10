@@ -4,8 +4,8 @@ using namespace std;
 
 int factorial(int n){
     while(n<0){
-        //cout<<"Enter a positive number"<<endl;
-        printf("Enter a positive number\n");
+        cout<<"Enter a positive number"<<endl;
+        //printf("Enter a positive number\n");
         int x;cin>>x;
         n = x;
     }
